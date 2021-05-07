@@ -91,3 +91,4 @@ GetTypeName:
 	jp CopyBytes
 
 INCLUDE "data/types/names.asm"
+INCLUDE "engine/pokemon/categories.asm"
