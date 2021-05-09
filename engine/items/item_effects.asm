@@ -2305,6 +2305,10 @@ ItemfinderEffect:
 	farcall ItemFinder
 	ret
 
+PocketPCEffect:
+	farcall PocketPCFunction
+	ret
+
 RestorePPEffect:
 	ld a, [wCurItem]
 	ld [wTempRestorePPItem], a
