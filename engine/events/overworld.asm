@@ -1728,6 +1728,18 @@ BikeFunction:
 	scf
 	ret
 
+Script_LoadPocketPC:
+	reloadmappart
+	special UpdateTimePals
+	special PokemonCenterPC
+	reloadmappart
+	end
+
+Script_LoadPocketPC_Register:
+	special PokemonCenterPC
+	reloadmappart
+	end
+
 Script_GetOnBike:
 	reloadmappart
 	special UpdateTimePals
