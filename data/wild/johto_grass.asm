@@ -1324,7 +1324,7 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, MAREEP
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
@@ -1332,7 +1332,7 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, MAREEP
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
@@ -1340,7 +1340,7 @@ JohtoGrassWildMons:
 	db 4, WOOPER
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, ZUBAT
+	db 6, MAREEP
 	db 7, HOOTHOOT
 	db 7, GASTLY
 	db 7, GASTLY
@@ -1438,7 +1438,7 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
 	db 5, PIDGEY
-	db 6, PIDGEY
+	db 6, VULPIX
 	db 6, PIDGEY
 	; day
 	db 4, PIDGEY
@@ -1446,7 +1446,7 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
 	db 5, PIDGEY
-	db 6, PIDGEY
+	db 6, VULPIX
 	db 6, PIDGEY
 	; nite
 	db 4, SPINARAK
@@ -1454,7 +1454,7 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, HOOTHOOT
 	db 5, HOOTHOOT
-	db 5, GASTLY
+	db 5, VULPIX
 	db 5, GASTLY
 	end_grass_wildmons
 
@@ -1466,7 +1466,7 @@ JohtoGrassWildMons:
 	db 15, PIDGEY
 	db 16, GROWLITHE
 	db 15, PIDGEOTTO
-	db 15, LEDIAN
+	db 15, VULPIX
 	db 15, LEDIAN
 	; day
 	db 13, PIDGEY
@@ -1482,7 +1482,7 @@ JohtoGrassWildMons:
 	db 15, HOOTHOOT
 	db 16, STANTLER
 	db 15, NOCTOWL
-	db 15, ARIADOS
+	db 15, VULPIX
 	db 15, ARIADOS
 	end_grass_wildmons
 
@@ -1547,23 +1547,23 @@ JohtoGrassWildMons:
 	; morn
 	db 13, EKANS
 	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
-	db 15, ARBOK
+	db 15, MANKEY
+	db 16, MAREEP
+	db 15, GIRAFARIG
 	db 16, FEAROW
 	db 16, FEAROW
 	; day
 	db 13, EKANS
 	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
+	db 15, MANKEY
+	db 16, FLAFFY
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, FEAROW
 	; nite
-	db 13, RATTATA
+	db 13, RATICATE
 	db 14, ZUBAT
-	db 15, RATICATE
+	db 15, MANKEY
 	db 16, GOLBAT
 	db 15, MARILL
 	db 16, GOLBAT
@@ -1573,7 +1573,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SENTRET
+	db 15, FLAFFY
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
@@ -1581,7 +1581,7 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 17, FURRET
 	; day
-	db 15, SENTRET
+	db 15, FLAFFY
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET

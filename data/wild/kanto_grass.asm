@@ -263,7 +263,7 @@ KantoGrassWildMons:
 	db 10, RATICATE
 	db 10, ARBOK
 	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, BULBASAUR
 	; day
 	db 5, SPEAROW
 	db 5, RATTATA
@@ -271,7 +271,7 @@ KantoGrassWildMons:
 	db 10, RATICATE
 	db 10, ARBOK
 	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, BULBASAUR
 	; nite
 	db 5, RATTATA
 	db 10, RATTATA
@@ -350,7 +350,7 @@ KantoGrassWildMons:
 	db 16, ABRA
 	; day
 	db 17, RATTATA
-	db 17, SPEAROW
+	db 17, VULPIX
 	db 18, SNUBBULL
 	db 18, RATICATE
 	db 18, JIGGLYPUFF
@@ -390,7 +390,7 @@ KantoGrassWildMons:
 	db 16, ABRA
 	db 17, HAUNTER
 	db 16, JIGGLYPUFF
-	db 18, KADABRA
+	db 18, VULPIX
 	db 18, KADABRA
 	end_grass_wildmons
 
@@ -399,7 +399,7 @@ KantoGrassWildMons:
 	; morn
 	db 15, RATTATA
 	db 15, SPEAROW
-	db 15, RATICATE
+	db 15, MANKEY
 	db 15, FEAROW
 	db 15, FEAROW
 	db 18, MAROWAK
@@ -407,7 +407,7 @@ KantoGrassWildMons:
 	; day
 	db 15, RATTATA
 	db 15, SPEAROW
-	db 15, RATICATE
+	db 15, MANKEY
 	db 15, FEAROW
 	db 15, FEAROW
 	db 18, MAROWAK
@@ -415,7 +415,7 @@ KantoGrassWildMons:
 	; nite
 	db 15, RATTATA
 	db 15, VENONAT
-	db 15, RATICATE
+	db 15, MANKEY
 	db 15, VENOMOTH
 	db 15, ZUBAT
 	db 18, RATICATE
@@ -711,7 +711,7 @@ KantoGrassWildMons:
 	db 12, ABRA
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, CHARMANDER
 	; day
 	db 8, CATERPIE
 	db 12, SUNKERN
@@ -719,7 +719,7 @@ KantoGrassWildMons:
 	db 12, ABRA
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, CHARMANDER
 	; nite
 	db 10, VENONAT
 	db 10, ODDISH
@@ -739,7 +739,7 @@ KantoGrassWildMons:
 	db 12, METAPOD
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, SQUIRTLE
 	; day
 	db 10, CATERPIE
 	db 10, PIDGEY
@@ -747,7 +747,7 @@ KantoGrassWildMons:
 	db 12, METAPOD
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, SQUIRTLE
 	; nite
 	db 10, ODDISH
 	db 10, HOOTHOOT
