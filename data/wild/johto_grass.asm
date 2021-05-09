@@ -1556,7 +1556,7 @@ JohtoGrassWildMons:
 	db 13, EKANS
 	db 14, SPEAROW
 	db 15, MANKEY
-	db 16, FLAFFY
+	db 16, FLAAFFY
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, FEAROW
@@ -1573,7 +1573,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, FLAFFY
+	db 15, FLAAFFY
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
@@ -1581,7 +1581,7 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 17, FURRET
 	; day
-	db 15, FLAFFY
+	db 15, FLAAFFY
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
