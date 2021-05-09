@@ -169,7 +169,7 @@ FishGroups:
 	db  90 percent + 1, KRABBY,     20
 	db 100 percent,     time_group 18
 .WhirlIslands_Super:
-	db  40 percent,     KRABBY,     40
+	db  40 percent,     KABUTOPS,   40
 	db  70 percent,     time_group 19
 	db  90 percent + 1, KINGLER,    40
 	db 100 percent,     SEADRA,     40
@@ -187,7 +187,7 @@ FishGroups:
 	db 100 percent,     time_group 20
 .Qwilfish_NoSwarm_Super:
 .Qwilfish_Super:
-	db  40 percent,     TENTACOOL,  40
+	db  40 percent,     OMASTAR,    40
 	db  70 percent,     time_group 21
 	db  90 percent + 1, MAGIKARP,   40
 	db 100 percent,     QWILFISH,   40
@@ -202,10 +202,10 @@ FishGroups:
 	db  90 percent + 1, POLIWAG,    20
 	db 100 percent,     time_group 6
 .Remoraid_Super:
-	db  40 percent,     POLIWAG,    40
+	db  40 percent,     TENTACRUEL, 40
 	db  70 percent,     time_group 7
 	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     REMORAID,   40
+	db 100 percent,     OCTILLERY,  40
 
 TimeFishGroups:
 	;  day              nite
