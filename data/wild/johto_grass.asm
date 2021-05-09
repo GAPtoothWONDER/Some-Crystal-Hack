@@ -1243,7 +1243,7 @@ JohtoGrassWildMons:
 	db 3, SENTRET
 	db 2, RATTATA
 	db 3, HOPPIP
-	db 3, HOPPIP
+	db 3, CHIKORITA
 	; day
 	db 2, PIDGEY
 	db 2, SENTRET
@@ -1251,7 +1251,7 @@ JohtoGrassWildMons:
 	db 3, SENTRET
 	db 2, RATTATA
 	db 3, HOPPIP
-	db 3, HOPPIP
+	db 3, CHIKORITA
 	; nite
 	db 2, HOOTHOOT
 	db 2, RATTATA
@@ -1355,7 +1355,7 @@ JohtoGrassWildMons:
 	db 6, HOPPIP
 	db 7, EKANS
 	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, CYNDAQUIL
 	; day
 	db 6, RATTATA
 	db 6, SPEAROW
@@ -1363,7 +1363,7 @@ JohtoGrassWildMons:
 	db 6, HOPPIP
 	db 7, EKANS
 	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, CYNDAQUIL
 	; nite
 	db 6, RATTATA
 	db 6, ZUBAT
@@ -1383,7 +1383,7 @@ JohtoGrassWildMons:
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, TOTODILE
 	; day
 	db 10, SNUBBULL
 	db 11, RATTATA
@@ -1391,7 +1391,7 @@ JohtoGrassWildMons:
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, TOTODILE
 	; nite
 	db 12, DROWZEE
 	db 11, RATTATA
