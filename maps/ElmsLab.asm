@@ -1378,6 +1378,21 @@ ElmsLabPCText:
 	para "…It says on the"
 	line "screen…"
 	done
+	
+AideText_GetPocketPCText:
+	text "Oh, I have"
+	line "this for you"
+
+	para "too! It's a"
+	line "Pocket PC!"
+	done
+	
+AideText_PocketPCInfoText:
+	text "Use this"
+	line "to manage"
+
+	para "your party."
+	done
 
 ElmsLab_MapEvents:
 	db 0, 0 ; filler
