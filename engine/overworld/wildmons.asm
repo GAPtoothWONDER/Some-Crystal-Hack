@@ -273,7 +273,7 @@ ChooseWildEncounter:
 	jr z, .watermon
 	inc hl
 	inc hl
-	ld a, [wTimeOfDay]
+	call GetTimeOfDayNotEve
 	ld bc, NUM_GRASSMON * 2
 	call AddNTimes
 	ld de, GrassMonProbTable
@@ -794,7 +794,7 @@ RandomUnseenWildMon:
 	push hl
 	ld bc, 5 + 4 * 2 ; Location of the level of the 5th wild Pokemon in that map
 	add hl, bc
-	ld a, [wTimeOfDay]
+	call GetTimeOfDayNotEve
 	ld bc, NUM_GRASSMON * 2
 	call AddNTimes
 .randloop1
@@ -863,7 +863,7 @@ RandomPhoneWildMon:
 .ok
 	ld bc, 5 + 0 * 2
 	add hl, bc
-	ld a, [wTimeOfDay]
+	call GetTimeOfDayNotEve
 	inc a
 	ld bc, NUM_GRASSMON * 2
 .loop
