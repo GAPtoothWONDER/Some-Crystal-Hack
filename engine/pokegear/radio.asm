@@ -1706,7 +1706,7 @@ BuenasPassword21:
 BuenasPasswordCheckTime:
 	call UpdateTime
 	ldh a, [hHours]
-	cp NITE_HOUR
+	cp EVE_HOUR
 	ret
 
 BuenasPasswordChannelName:
