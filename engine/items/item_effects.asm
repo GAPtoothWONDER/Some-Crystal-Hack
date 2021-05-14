@@ -752,7 +752,35 @@ BallMultiplierFunctionTable:
 	dbw MOON_BALL,   MoonBallMultiplier
 	dbw LOVE_BALL,   LoveBallMultiplier
 	dbw PARK_BALL,   ParkBallMultiplier
+	dbw DUSK_BALL,   DuskBallMultiplier
 	db -1 ; end
+
+DuskBallMultiplier:
+; is it night?
+	ld a, [wTimeOfDay]
+	cp NITE
+	jr z, .night_or_cave
+; or are we in a cave?
+	ld a, [wEnvironment]
+	cp CAVE
+	jr z, .night_or_cave
+; neither night nor cave
+	ret
+
+.night_or_cave
+; b is the catch rate
+; a := b / 2 + b + b + b == b × 3.5
+	ld a, b
+	srl a
+rept 3
+	add b
+	jr c, .max
+endr
+	ret
+
+.max
+	ld b, $ff
+	ret
 
 UltraBallMultiplier:
 ; multiply catch rate by 2
