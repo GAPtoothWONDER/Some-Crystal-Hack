@@ -90,7 +90,7 @@ ItemDescriptions:
 	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
-	dw TeruSama6Desc
+	dw DuskBallDesc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
@@ -609,8 +609,10 @@ SilverPowderDesc:
 BluApricornDesc:
 	db   "A blue APRICORN.@"
 
-TeruSama6Desc:
-	db   "?@"
+DuskBallDesc:
+	db   "A BALL with a high"
+	next "rate of success"
+	next "at night or in a cave.@"
 
 AmuletCoinDesc:
 	db   "Doubles monetary"
