@@ -51,9 +51,20 @@ AzaleaGymBugsyScript:
 
 .GotFuryCutter:
 	writetext BugsyText_BugMonsAreDeep
-	waitbutton
+	yesorno
+	iftrue .BugsyRematch
+	closetext
+	end
 .NoRoomForFuryCutter:
 	closetext
+	end
+
+.BugsyRematch:
+	special HealParty
+	winlosstext Bugsy_RematchDefeatText, 0
+	loadtrainer BUGSY, 1
+	startbattle
+	reloadmapafterbattle
 	end
 
 AzaleaGymActivateRockets:
@@ -229,6 +240,18 @@ BugsyText_BugMonsAreDeep:
 	para "Study your favor-"
 	line "ites thoroughly."
 	done
+
+	para "Want to have a"
+	line "rematch with me?"
+	done
+
+Bugsy_RematchDefeatText:
+	text "BUGSY: Wow, you"
+	line "must be an expert"
+	cont "trainer."
+
+	para "My research must"
+	line "not be complete…"
 
 BugCatcherBennySeenText:
 	text "Bug #MON evolve"

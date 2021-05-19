@@ -86,8 +86,17 @@ BlackthornGymClairScript:
 
 .GotTM24:
 	writetext BlackthornGymClairText_League
-	waitbutton
+	yesorno
+	iftrue .ClairRematch
 	closetext
+	end
+
+.ClairRematch:
+	special HealParty
+	winlosstext Clair_RematchDefeatText, 0
+	loadtrainer CLAIR, 1
+	startbattle
+	reloadmapafterbattle
 	end
 
 TrainerCooltrainermPaul:
@@ -282,6 +291,22 @@ BlackthornGymClairText_League:
 	para "Give it every-"
 	line "thing you've got."
 	done
+
+	para "<……><……><……>"
+	line "<……><……><……>"
+
+	para "What?"
+
+	para "Do you want to"
+	line "have a rematch?"
+	done
+
+Clair_RematchDefeatText:
+	text "CLAIR: …"
+
+	para "I think you are"
+	line "ready for the"
+	cont "#MON LEAGUE."
 
 CooltrainermPaulSeenText:
 	text "Your first battle"
