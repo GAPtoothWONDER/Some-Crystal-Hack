@@ -384,6 +384,7 @@ TMHM_DisplayPocketItems:
 	add hl, bc
 	call PlaceString
 	pop bc
+	pop de
 	pop hl
 	dec d
 	jr nz, .loop2
